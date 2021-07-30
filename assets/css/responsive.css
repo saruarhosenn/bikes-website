@@ -1,0 +1,79 @@
+/*
+=========================================
+Responsive Breakpoint
+=========================================
+*/
+@media (max-width: 991px) {
+
+	/* 
+	===============================
+	Header Section Responsive
+	===============================
+	*/
+	.main-menu ul li:not(:last-child) {
+		margin-right: 2.5rem;
+	}
+
+	/* 
+	===============================
+	FAQ Section Responsive
+	===============================
+	*/
+	.faq-text {
+		padding-left: 0rem;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	/* 
+	===============================
+	Header Section Responsive
+	===============================
+	*/
+	header {
+		padding: 1rem 0;
+	}
+
+	.main-menu ul li:not(:last-child) {
+		margin: 0 0 1rem;
+	}
+
+}
+
+@media (max-width: 575px) {
+
+	.title h2 {
+		font-size: 4rem;
+	}
+
+	.size-20 {
+		font-size: 1.8rem;
+	}
+
+	/* 
+	===============================
+	Hero Section Responsive
+	===============================
+	*/
+	.hero-section {
+		padding: 13rem 0 8rem;
+	}
+
+	/* 
+	===============================
+	Newsletter Section Responsive
+	===============================
+	*/
+	.newsletter-fild input {
+		width: 60%;
+		font-size: 16px;
+	}
+
+	.newsletter-fild button {
+		width: 40%;
+		font-size: 16px;
+	}
+
+}

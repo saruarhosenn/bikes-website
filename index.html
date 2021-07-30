@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="author" content="Saruar Hosen">
+	<meta name="description" content="Bikes Website">
+	<meta name="keywords" content="Bikes Website, Bikes">
+	<!---- Website Title ---->
+	<title>Bikes</title>
+	<!------- Favicon ------->
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+	<!------- Css Here ------->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+
+<body>
+
+	<!-- 
+	  =====================================================
+	  Start Header Section 
+	  =====================================================
+	-->
+	<header class="w-100 fixed-top bg-26">
+		<nav class="navbar navbar-expand-md">
+			<div class="container">
+				<!------- Logo------->
+				<a class="color-ff size-28 fw-600" href="#">Bike</a>
+				
+				<!------- Toggle BTN ------->
+				<div class="navbar-toggler toggle-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+					<span class="bar1 d-block"></span>
+					<span class="bar1 d-block"></span>
+					<span class="bar1 d-block"></span>
+				</div>
+
+				<!------- Main Menu ------->
+				<div class="main-menu collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+					<ul class="navbar-nav align-items-center py-5 py-md-0">
+						<li class="nav-item">
+							<a class="nav-link color-ff size-16 fw-500 transition-2 link" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link color-ff size-16 fw-500 transition-2 link" href="#">Shop</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link color-ff size-16 fw-500 transition-2 link" href="#">News</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link color-ff size-16 fw-500 transition-2 link" href="#">Contact</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="c-btn t-border transition-2 bg-e7 color-ff size-16 fw-500 rounded text-center">
+								Login
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<!-- 
+	  =====================================================
+	  End Header Section 
+	  =====================================================
+	-->
+
+
+	<main>
+		<!-- 
+		  =====================================================
+		  Start Hero Section 
+		  =====================================================
+		-->
+		<section class="hero-section bg-26">
+			<div class="container">
+				<div class="row g-5 align-items-center">
+					<div class="col-md-6 mb-5 mb-md-0">
+						<div class="hero-text">
+							<p class="color-ff size-14 fw-300">Computer-controlled digital transistorized with electronic advance</p>
+							<h1 class="color-ff size-48 fw-600 my-4">Honda CBR 300R</h1>
+							<p class="color-e0 size-16 fw-300 mb-5">
+								Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+							</p>
+							<a href="#" class="bg-btn c-btn t-border transition-2 bg-e7 color-ff size-16 fw-500 rounded text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">Purchase</a>
+
+							<!-- Modal -->
+							<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered">
+									<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title color-00 size-28 fw-600" id="exampleModalLabel">Products Info</h5>
+											<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+										</div>
+										<div class="modal-body">
+											<div class="p-desc">
+												<h5 class="color-00 size-20 fw-600 mb-4">Description</h5>
+												<p class="color-6c size-14 fw-400">
+													At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+												</p>
+											</div>
+											<div class="p-desc">
+												<h5 class="color-00 size-20 fw-600 mb-4">Description</h5>
+												<p class="color-6c size-14 fw-400">
+													At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 mt-5 mt-md-0">
+						<div class="hero-img">
+							<img src="assets/images/hero.png" alt="honda" class="img-fluid">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- 
+		  =====================================================
+		  End Hero Section 
+		  =====================================================
+		-->
+
+
+		<!-- 
+		  =====================================================
+		  Start bikes Section 
+		  =====================================================
+		-->
+		<section class="bikes-section pt-70 pb-80">
+			<div class="container">
+				<div class="title text-center">
+					<h2 class="color-00 size-48 fw-600">Fetured <span class="color-e7">Bikes 2022</span></h2>
+					<p class="color-e7 size-14 fw-600 mt-3 mb-2">Best bike collection</p>
+					<hr class="mx-auto">
+				</div>
+				<!----- Start row ----->
+				<div class="row g-5">
+					<article class="col-md-4">
+						<div class="text-center bikes bikes-gray py-5 px-4">
+							<div class="bikes-img">
+								<img src="assets/images/bikes.png" alt="bikes" class="img-fluid transition-1">
+							</div>
+							<div class="bikes-btn">
+								<a href="#" class="bg-btn bg-e7 color-ff size-16 fw-500 rounded text-center"> Reade More</a>
+							</div>
+						</div>
+					</article>
+					<article class="col-md-4">
+						<div class="text-center bikes py-5 px-4">
+							<div class="bikes-img">
+								<img src="assets/images/bikes.png" alt="bikes" class="img-fluid transition-1">
+							</div>
+							<div class="bikes-btn">
+								<a href="#" class="bg-btn bg-e7 color-ff size-16 fw-500 rounded text-center"> Reade More</a>
+							</div>
+						</div>
+					</article>
+					<article class="col-md-4">
+						<div class="text-center bikes bikes-gray py-5 px-4">
+							<div class="bikes-img">
+								<img src="assets/images/bikes.png" alt="bikes" class="img-fluid transition-1">
+							</div>
+							<div class="bikes-btn">
+								<a href="#" class="bg-btn bg-e7 color-ff size-16 fw-500 rounded text-center"> Reade More</a>
+							</div>
+						</div>
+					</article>
+				</div>
+				<!------ End row ------>
+			</div>
+		</section>
+		<!-- 
+		  =====================================================
+		  End bikes Section 
+		  =====================================================
+		-->
+
+
+
+		<!-- 
+		  =====================================================
+		  Start  Section 
+		  =====================================================
+		-->
+		<section class="populer-section pt-70 pb-80 bg-f2">
+			<div class="container">
+				<div class="title text-center">
+					<h2 class="color-00 size-48 fw-600">Populer <span class="color-e7">Items</span></h2>
+				</div>
+				<!----- Start row ----->
+				<div class="row g-5 g-xl-4">
+					<article class="col-md-6 col-xl-3">
+						<div class="populer-items shadow p-4 form-floating bg-white">
+							<div class="populer-item-img text-center">
+								<img src="assets/images/populer1.jpg" alt="populer item" class="img-fluid transition-1">
+							</div>
+							<div class="populer-item-price mt-4">
+								<h3 class="color-25 size-14 fw-400 my-4"><strike>$250.00</strike> &nbsp; &nbsp; $200.00</h3>
+								<h3 class="color-25 size-14 fw-600">RST Pro Textile Jacket</h3>
+							</div>
+							<div class="products-icon transition-1">
+								<ul class="d-flex justify-content-center align-items-center">
+									<li class="me-4"><a href="#" class="rounded-3"><img src="assets/svg-icon/shopping-cart.svg" alt="cart"></a></li>
+									<li class="me-4"><a href="#" class="rounded-3"><img src="assets/svg-icon/heart.svg" alt="heart"></a></li>
+									<li><a href="#" class="rounded-3"><img src="assets/svg-icon/search.svg" alt="search"></a></li>
+								</ul>
+							</div>
+						</div>
+					</article>
+					<article class="col-md-6 col-xl-3">
+						<div class="populer-items shadow p-4 form-floating bg-white">
+							<div class="populer-item-img text-center">
+								<img src="assets/images/populer2.jpg" alt="populer item" class="img-fluid transition-1">
+							</div>
+							<div class="populer-item-price mt-4">
+								<h3 class="color-25 size-14 fw-400 my-4"><strike>$200.00</strike> &nbsp; &nbsp; $129.00</h3>
+								<h3 class="color-25 size-14 fw-600">Weise Daytona Glove – Black</h3>
+							</div>
+							<div class="products-icon transition-1">
+								<ul class="d-flex justify-content-center align-items-center">
+									<li class="me-4"><a href="#" class="rounded-3"><img src="assets/svg-icon/shopping-cart.svg" alt="cart"></a></li>
+									<li class="me-4"><a href="#" class="rounded-3"><img src="assets/svg-icon/heart.svg" alt="heart"></a></li>
+									<li><a href="#" class="rounded-3"><img src="assets/svg-icon/search.svg" alt="search"></a></li>
+								</ul>
+							</div>
+						</div>
+					</article>
+					<article class="col-md-6 col-xl-3">
+						<div class="populer-items shadow p-4 form-floating bg-white">
+							<div class="populer-item-img text-center">
+								<img src="assets/images/populer3.jpg" alt="populer item" class="img-fluid transition-1">
+							</div>
+							<div class="populer-item-price mt-4">
+								<h3 class="color-25 size-14 fw-400 my-4"><strike>$300.00</strike> &nbsp; &nbsp; $269.00</h3>
+								<h3 class="color-25 size-14 fw-600">Richa Slick Boots</h3>
+							</div>
+							<div class="products-icon transition-1">
+								<ul class="d-flex justify-content-center align-items-center">
+									<li class="me-4"><a href="#" class="rounded-3"><img src="assets/svg-icon/shopping-cart.svg" alt="cart"></a></li>
+									<li class="me-4"><a href="#" class="rounded-3"><img src="assets/svg-icon/heart.svg" alt="heart"></a></li>
+									<li><a href="#" class="rounded-3"><img src="assets/svg-icon/search.svg" alt="search"></a></li>
+								</ul>
+							</div>
+						</div>
+					</article>
+					<article class="col-md-6 col-xl-3">
+						<div class="populer-items shadow p-4 form-floating bg-white">
+							<div class="populer-item-img text-center">
+								<img src="assets/images/populer4.jpg" alt="populer item" class="img-fluid transition-1">
+							</div>
+							<div class="populer-item-price mt-4">
+								<h3 class="color-25 size-14 fw-400 my-4"><strike>$120.00</strike> &nbsp; &nbsp; $79.00</h3>
+								<h3 class="color-25 size-14 fw-600">Comp Kid Boots – White</h3>
+							</div>
+							<div class="products-icon transition-1">
+								<ul class="d-flex justify-content-center align-items-center">
+									<li class="me-4"><a href="#" class="rounded-3"><img src="assets/svg-icon/shopping-cart.svg" alt="cart"></a></li>
+									<li class="me-4"><a href="#" class="rounded-3"><img src="assets/svg-icon/heart.svg" alt="heart"></a></li>
+									<li><a href="#" class="rounded-3"><img src="assets/svg-icon/search.svg" alt="search"></a></li>
+								</ul>
+							</div>
+						</div>
+					</article>
+				</div>
+				<!------ End row ------>
+			</div>
+		</section>
+		<!-- 
+		  =====================================================
+		  End  Section 
+		  =====================================================
+		-->
+
+
+		<!-- 
+		  =====================================================
+		  Start Clients Section 
+		  =====================================================
+		-->
+		<section class="client-section pt-70 pb-80">
+			<div class="container">
+				<div class="title text-center">
+					<h2 class="color-0a size-48 fw-600">Happy <span class="color-e7">Clients Says</span></h2>
+				</div>
+				<!----- Start row ----->
+				<div class="row g-4 g-lg-5">
+					<article class="col-md-4">
+						<div class="client c-border rounded-3 p-4 p-lg-5">
+							<div class="client-img text-center">
+								<img src="assets/images/client1.png" alt="client">
+							</div>
+							<div class="client-info text-center">
+								<p class="color-6c size-16 fw-400 mt-5 mb-4">
+									Slate helps you see how
+									many more days you need
+									to work to reach your financial
+									goal for the month and year.
+								</p>
+								<ul class="d-flex justify-content-center">
+									<li class="me-3">
+										<img src="assets/svg-icon/star1.svg" alt="">
+									</li>
+									<li class="me-3">
+										<img src="assets/svg-icon/star1.svg" alt="">
+									</li>
+									<li class="me-3">
+										<img src="assets/svg-icon/star1.svg" alt="">
+									</li>
+									<li class="me-3">
+										<img src="assets/svg-icon/star1.svg" alt="">
+									</li>
+									<li class="me-3">
+										<img src="assets/svg-icon/star2.svg" alt="">
+									</li>
+								</ul>
+								<h3 class="color-23 size-14 fw-600 my-4">Regina Miles</h3>
+								<h3 class="color-25 size-14 fw-600">Banker</h3>
+							</div>
+						</div>
+					</article>
+					<article class="col-md-4">
+						<div class="client c-border rounded-3 p-4 p-lg-5">
+							<div class="client-img text-center">
+								<img src="assets/images/client2.png" alt="client">
+							</div>
+							<div class="client-info text-center">
+								<p class="color-6c size-16 fw-400 mt-5 mb-4">
+									Slate helps you see how
+									many more days you need
+									to work to reach your financial
+									goal for the month and year.
+								</p>
+								<ul class="d-flex justify-content-center">
+									<li class="me-3">
+										<img src="assets/svg-icon/star1.svg" alt="">
+									</li>
+									<li class="me-3">
+										<img src="assets/svg-icon/star1.svg" alt="">
+									</li>
+									<li class="me-3">
+										<img src="assets/svg-icon/star1.svg" alt="">
+									</li>
+									<li class="me-3">
+										<img src="assets/svg-icon/star1.svg" alt="">
+									</li>
+									<li class="me-3">
+										<img src="assets/svg-icon/star2.svg" alt="">
+									</li>
+								</ul>
+								<h3 class="color-23 size-14 fw-600 my-4">Regina Miles</h3>
+								<h3 class="color-25 size-14 fw-600">Banker</h3>
+							</div>
+						</div>
+					</article>
+					<article class="col-md-4">
+						<div class="client c-border rounded-3 p-4 p-lg-5">
+							<div class="client-img text-center">
+								<img src="assets/images/client3.png" alt="client">
+							</div>
+							<div class="client-info text-center">
+								<p class="color-6c size-16 fw-400 mt-5 mb-4">
+									Slate helps you see how
+									many more days you need
+									to work to reach your financial
+									goal for the month and year.
+								</p>
+								<ul class="d-flex justify-content-center">
+									<li class="me-3">
+										<img src="assets/svg-icon/star1.svg" alt="">
+									</li>
+									<li class="me-3">
+										<img src="assets/svg-icon/star1.svg" alt="">
+									</li>
+									<li class="me-3">
+										<img src="assets/svg-icon/star1.svg" alt="">
+									</li>
+									<li class="me-3">
+										<img src="assets/svg-icon/star1.svg" alt="">
+									</li>
+									<li class="me-3">
+										<img src="assets/svg-icon/star2.svg" alt="">
+									</li>
+								</ul>
+								<h3 class="color-23 size-14 fw-600 my-4">Regina Miles</h3>
+								<h3 class="color-25 size-14 fw-600">Banker</h3>
+							</div>
+						</div>
+					</article>
+				</div>
+				<!------ End row ------>
+			</div>
+		</section>
+		<!-- 
+		  =====================================================
+		  End Clients Section 
+		  =====================================================
+		-->
+
+
+		<!-- 
+		  =====================================================
+		  Start FAQ Section 
+		  =====================================================
+		-->
+		<section class="faq-section pt-70 pb-80 bg-f2">
+			<div class="container">
+				<div class="title text-center">
+					<h2 class="color-0a size-48 fw-600">Frequently Asked <span class="color-e7">Questions</span></h2>
+				</div>
+				<!----- Start row ----->
+				<div class="row g-5 align-items-center">
+					<article class="col-lg-5 order-1 order-lg-2 mt-5 mt-lg-0">
+						<div class="faq-img">
+							<img src="assets/images/faq.png" alt="faq" class="img-fluid">
+						</div>
+					</article>
+					<article class="col-lg-7 order-0 order-lg-3">
+						<div class="accordion faq-text" id="accordionExample">
+							<div class="accordion-item mb-4 c-border">
+								<button class="border-0 text-start collapsed accordion-button color-38 size-20 fw-500" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									<span class="pe-2">What are the most important things I should
+										know about riding a bike?</span>
+								</button>
+								<div id="collapseOne" class="border-0 accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										<p class="color-7e size-16 fw-400">
+											Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item mb-4 c-border">
+								<button class="border-0 text-start accordion-button collapsed color-38 size-20 fw-500" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									<span class="pe-2">How can I tell if my helmet is old and I need a
+										new one?</span>
+								</button>
+								<div id="collapseTwo" class="border-0 accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										<p class="color-7e size-16 fw-400">
+											Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item mb-4 c-border">
+								<button class="border-0 text-start accordion-button collapsed color-38 size-20 fw-500" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									<span class="pe-2">My bike has been in storage is it safe to ride?</span>
+								</button>
+
+								<div id="collapseThree" class="border-0 accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										<p class="color-7e size-16 fw-400">
+											Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item c-border">
+								<button class="border-0 text-start accordion-button collapsed color-38 size-20 fw-500" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+									<span class="pe-2">What rules should I follow when riding my bike?</span>
+								</button>
+
+								<div id="collapseFour" class="border-0 accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										<p class="color-7e size-16 fw-400">
+											Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+				<!------ End row ------>
+			</div>
+		</section>
+		<!-- 
+		  =====================================================
+		  End FAQ Section 
+		  =====================================================
+		-->
+
+
+		<!-- 
+		  =====================================================
+		  Start Newsletter Section 
+		  =====================================================
+		-->
+		<section class="news-section pt-70 pb-80">
+			<div class="container">
+				<div class="title text-center">
+					<h2 class="color-0a size-48 fw-600">Latest <span class="color-e7">News</span></h2>
+				</div>
+				<!----- Start row ----->
+				<div class="row g-5">
+					<article class="col-lg-4 col-md-6">
+						<div class="news c-border rounded-3 p-4">
+							<div class="news-img text-center mb-1">
+								<img src="assets/images/news1.png" alt="news" class="w-100 transition-1">
+							</div>
+							<div class="news-text">
+								<h3 class="color-18 size-20 fw-600 mt-4 mb-3">Ducati XDIAVEL S-73</h3>
+								<p class="color-6c size-16 fw-400 mb-4">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi.
+								</p>
+								<a href="#" class="mt-1 t-border transition-2 color-e7 size-16 fw-500 rounded text-center">Read More</a>
+							</div>
+						</div>
+					</article>
+					<article class="col-lg-4 col-md-6">
+						<div class="news c-border rounded-3 p-4">
+							<div class="news-img text-center mb-1">
+								<img src="assets/images/news2.png" alt="news" class="w-100 transition-1">
+							</div>
+							<div class="news-text">
+								<h3 class="color-18 size-20 fw-600 mt-4 mb-3">Motorcycles & Scooters</h3>
+								<p class="color-6c size-16 fw-400 mb-4">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi.
+								</p>
+								<a href="#" class="mt-1 t-border transition-2 color-e7 size-16 fw-500 rounded text-center">Read More</a>
+							</div>
+						</div>
+					</article>
+					<article class="col-lg-4 col-md-6 mx-auto">
+						<div class="news c-border rounded-3 p-4">
+							<div class="news-img text-center mb-1">
+								<img src="assets/images/news3.png" alt="news" class="w-100 transition-1">
+							</div>
+							<div class="news-text">
+								<h3 class="color-18 size-20 fw-600 mt-4 mb-3">2021 Honda CBR500R</h3>
+								<p class="color-6c size-16 fw-400 mb-4">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi.
+								</p>
+								<a href="#" class="mt-1 t-border transition-2 color-e7 size-16 fw-500 rounded text-center">Read More</a>
+							</div>
+						</div>
+					</article>
+				</div>
+				<!------ End row ------>
+			</div>
+		</section>
+		<!-- 
+		  =====================================================
+		  End Newsletter Section 
+		  =====================================================
+		-->
+
+
+		<!-- 
+		  =====================================================
+		  Start Newsletter Section 
+		  =====================================================
+		-->
+		<section class="newsletter pt-70 pb-80 bg-f2">
+			<div class="container">
+				<div class="title text-center">
+					<h2 class="color-0a size-48 fw-600">Subscribe Our <span class="color-e7">Newsletter</span></h2>
+				</div>
+				<form action="javascript:void(0)" class="mx-auto">
+					<div class="newsletter-fild d-flex">
+						<input type="email" name="" id="" placeholder="Enter Your Email">
+						<button type="submit" class="size-16 fw-500 color-ff bg-e7">SUBSCRIBE</button>
+					</div>
+				</form>
+			</div>
+		</section>
+		<!-- 
+		  =====================================================
+		  End Newsletter Section 
+		  =====================================================
+		-->
+
+	</main>
+
+
+	<!-- 
+	  =====================================================
+	  Start Footer Section 
+	  =====================================================
+	-->
+	<footer class="pt-70 pb-80">
+		<div class="container">
+			<div class="row">
+				<div class="col-6 col-sm-7 col-md-9 col-mlg-10">
+					<div class="footer-text">
+						<ul class="d-md-flex">
+							<li class="mb-4 mb-md-0 me-md-5"><a href="#" class="link transition-2 color-ff size-16 fw-400">Download Now</a></li>
+							<li><a href="#" class="link transition-2 color-ff size-16 fw-400">License</a></li>
+						</ul>
+						<ul class="d-md-flex my-4">
+							<li class="me-lg-5 me-md-4 me-0 mb-4 mb-md-0"><a href="#" class="link transition-2 color-ff size-16 fw-400">About</a></li>
+							<li class="me-lg-5 me-md-4 me-0 mb-4 mb-md-0"><a href="#" class="link transition-2 color-ff size-16 fw-400">Features</a></li>
+							<li class="me-lg-5 me-md-4 me-0 mb-4 mb-md-0"><a href="#" class="link transition-2 color-ff size-16 fw-400">Pricing</a></li>
+							<li class="me-lg-5 me-md-4 me-0 mb-4 mb-md-0"><a href="#" class="link transition-2 color-ff size-16 fw-400">Careers</a></li>
+							<li class="me-lg-5 me-md-4 me-0 mb-4 mb-md-0"><a href="#" class="link transition-2 color-ff size-16 fw-400">Help</a></li>
+							<li><a href="#" class="color-ff size-16 fw-400 link transition-2">Privacy Policy</a></li>
+						</ul>
+						<p class="mt-5 color-d9 size-16 fw-400 d-none d-sm-block">&copy; 2021 bike. All rights reserved</p>
+					</div>
+				</div>
+				<div class="col-6 col-sm-5 col-md-3 col-lg-2">
+					<div class="app-info">
+						<p class="color-d9 size-18 fw-500">Get the App</p>
+						<div class="app-btn mt-5 mb-4">
+							<a href="#">
+								<img src="assets/images/app1.png" alt="app" class="img-fluid">
+							</a>
+						</div>
+						<div class="app-btn">
+							<a href="#">
+								<img src="assets/images/app2.png" alt="app" class="img-fluid">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 d-block d-sm-none">
+					<div class="text-center">
+						<p class="mt-5 color-d9 size-16 fw-400">&copy; 2021 bike. All rights reserved</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- 
+	  =====================================================
+	  End Footer Section 
+	  =====================================================
+	-->
+
+	<a href="#" title="Go to top" class="scroll-up-btn bg-e7 d-flex align-items-center justify-content-center transition-1 rounded">
+		<img src="assets/svg-icon/arrow-up.svg" alt="arrow-up">
+	</a>
+	
+	
+	<!--------- jS Here --------->
+	<script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
